@@ -51,6 +51,7 @@ If N is the number of lines in the input file, then space complexity of the code
 and worst case is O(N^2), since dictionary.get() has an averaged complexity of O(1) and worst case of O(N), and total line
 reading takes O(N). 
 
+Note when I calculate the total_cost of drugs, I use float instead of interger to represent the costs. If rounding the cost to intergers, then some information may be missed, for example, cost 0.1 can be the same order as cost 0.2. 
 
 Compilation:
 
